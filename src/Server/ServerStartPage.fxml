@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Server.ServerStartPageController">
+   <children>
+      <TextField fx:id="maxMatches" layoutX="300.0" layoutY="102.0" />
+      <TextField fx:id="allowedIds" layoutX="300.0" layoutY="200.0" />
+      <Label layoutX="111.0" layoutY="106.0" text="Maximum matches" />
+      <Label layoutX="108.0" layoutY="204.0" text="Allowed Student Ids" />
+      <Button layoutX="249.0" layoutY="292.0" mnemonicParsing="false" onAction="#StartAction" prefHeight="25.0" prefWidth="84.0" text="Start Server" />
+   </children>
+</AnchorPane>

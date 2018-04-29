@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.ClientGUIController">
+   <children>
+      <Label layoutX="67.0" layoutY="64.0" prefHeight="33.0" prefWidth="94.0" text="IP Address">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="118.0" prefHeight="33.0" prefWidth="83.0" text="Port No">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Ip" layoutX="164.0" layoutY="68.0" prefHeight="25.0" prefWidth="198.0" />
+      <TextField fx:id="Port" layoutX="164.0" layoutY="122.0" />
+      <Label layoutX="67.0" layoutY="176.0" prefHeight="25.0" prefWidth="83.0" text="Student ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Sid" layoutX="164.0" layoutY="176.0" />
+      <Button layoutX="310.0" layoutY="290.0" mnemonicParsing="false" onAction="#ConnectAction" prefHeight="33.0" prefWidth="83.0" text="Connect">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="180.0" layoutY="290.0" mnemonicParsing="false" onAction="#ResetAction" prefHeight="33.0" prefWidth="83.0" text="Reset" />
+      <TextArea fx:id="Notice" layoutX="376.0" layoutY="47.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</Pane>
